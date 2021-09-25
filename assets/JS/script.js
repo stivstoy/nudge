@@ -469,24 +469,6 @@ var displayDestCountry = function (destCountryData) {
 
 function displayAmountEntry() {
 
-  //var label = document.createElement("Label");
-  //label.className = "amount";
-  //label.innerHTML = "Please enter an amount:";
-  //currencyEntry.appendChild(label);
-  //var amountEntry = document.createElement("INPUT");
- // amountEntry.setAttribute("type", "number");
- // amountEntry.id = 'currency-amount';
-  //currencyEntry.appendChild(amountEntry);
-  //let saveBtn = document.createElement('div');
-  //saveBtn.className = 'saveBtn';
-  //var btn = document.createElement("BUTTON");
-
-  //btn.setAttribute("onclick", "convertRate()");
- // btn.innerHTML = "Convert";
-  //btn.setAttribute("type", "submit");
-  //saveBtn.appendChild(btn);
-  //currencyEntry.appendChild(saveBtn);
-  //btn.className= "pure-button rounded";
   currencyEntry.className="";
 }
 function convertRate() {
@@ -524,7 +506,7 @@ var exchangeRate = function(baseCurrency, currencyCode) {
 
       // creates currency elements
       var pElConversionRate = document.createElement("p");
-      var pElTotalAmt = document.createElement("P");
+      var pElTotalAmt = document.createElement("p");
 
       // sets currency properties
       pElConversionRate.setAttribute("id", "conversion-rate");

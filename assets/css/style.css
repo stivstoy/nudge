@@ -41,6 +41,7 @@ header {
 .jumbo {
     height: 280px;
     background-image: url("../images/travel.jpg");
+    background-size: cover;
 
 }
 
